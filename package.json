@@ -1,0 +1,17 @@
+{
+  "name": "adproduct",
+  "displayName": "AdProduct",
+  "description": "AdProduct is a Qinpel user application with all the tools of information on product that a company may need. This app is part of the AdMister applications.",
+  "keywords": [],
+  "repository": "https://github.com/emuvi/adproduct",
+  "author": "Éverton M. Vieira",
+  "license": "LGPL-3.0-only",
+  "version": "0.1.1",
+  "main": "./build/main.js",
+  "types": "./types/main.d.ts",
+  "dependencies": {
+    "adcommon": "file:../adcommon",
+    "qinpel-cps": "file:../qinpel-cps",
+    "qinpel-res": "file:../qinpel-res"
+  }
+}
