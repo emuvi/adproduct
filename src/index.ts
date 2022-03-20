@@ -12,5 +12,5 @@ class AdProduct extends QinColumn {
 }
 
 
-new AdProduct().putAsBody();
+new AdProduct().style.putAsBody();
 
